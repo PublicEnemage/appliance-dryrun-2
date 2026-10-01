@@ -39,11 +39,12 @@ A rejection must cite a clause number.
 
 ## Shelf adaptation (bootstrap draft)
 
-- Member contact details (name, email, optional phone) are classed **confidential**. Tool
-  listings and the on-loan state shown to members are classed **internal**. Nothing is
-  classed regulated.
+- Provisional classes, until the risk assessment (floor row C5) confirms them. Member
+  contact details (name and email) are classed **confidential**. Tool listings and the
+  on-loan state shown to members are classed **internal**. Nothing is classed regulated.
 - Clause 2 retention periods are open. The assumption is: loan history is kept 12 months
   after return, then the borrower is anonymised. Contact details are deleted on leaving.
   The Intent Owner confirms in the business case (floor row C4).
 - Clause 3 applies in full: a member's request to leave removes their contact details
-  from every store and from backups within a stated window.
+  from every store and from backups. The deletion window for backups is open (STATE.md
+  decision 14) and is set in the business case.

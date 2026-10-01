@@ -4,16 +4,17 @@ Every session reads this file first, human or agent. The file holds only the rul
 machine can enforce yet. A rule that a check enforces lives in the check (design rule 8).
 Budget: 16,000 bytes, enforced by check E9.
 
-Slots were filled at bootstrap (`BOOTSTRAP.md` step 4). Mission and principles are drafts
-until the Intent Owner approves the bootstrap (step 6).
+Slots were filled at bootstrap (`BOOTSTRAP.md` step 4). Mission, principles, seat names,
+the grade proposal and the not-applicable rows are drafts until the Intent Owner and
+Engineering Lead approve the bootstrap by merging it (step 6).
 
 ## Mission
 
 *Draft, for the Intent Owner to approve.*
 
-Shelf is a web app for a neighbourhood tool-lending library. Members lend and borrow
-tools and return them on time with reminders, and a volunteer coordinator sees at a glance
-what is out and what is overdue.
+Shelf runs a neighbourhood tool-lending library. Members lend and borrow tools and return
+them on time with reminders, and a volunteer coordinator sees at a glance what is out and
+what is overdue.
 
 ## Principles
 
@@ -29,6 +30,8 @@ what is out and what is overdue.
    headroom for scale.
 
 ## Seats
+
+*Draft, approved by the merge of the bootstrap.*
 
 | Seat | Held by |
 | --- | --- |

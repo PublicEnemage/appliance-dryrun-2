@@ -34,3 +34,14 @@ A rejection must cite a clause number.
    a bare error with no diagnostic.)
 5. **Quality is reported.** Each run writes a quality record: rows in, rows accepted, rows
    quarantined, and rules failed. The record is kept for the retention period of the data.
+
+## Shelf adaptation (bootstrap draft)
+
+- Applicability is open. No external dataset is known today, so the standard may end up
+  not applicable. Two inputs are undecided, because the stack and reminder channel are
+  open: member-uploaded tool photos or files (user uploads), and delivery or bounce data
+  from a third-party email service (an external feed).
+- Decide at the design gate. If neither exists, the Engineering Lead signs the standard
+  not-applicable in `docs/dor/checklist.yml` then, with the decided facts as the reason,
+  and the owner of the reopen condition is the Architect seat, who checks it at each
+  architecture change. Until then the clauses stand as written and the row stays open.

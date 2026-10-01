@@ -31,9 +31,6 @@ rows:
   D9: {status: open}
   D10: {status: open}
   D11: {status: open}
-  D11.1: {rule: "STD-003 Data quality is not applicable to Shelf", status: not-applicable,
-          reason: "Shelf ingests no external datasets: no imports, feeds, third-party data APIs or bulk uploads. Members enter their own data. Reopen if an import is added.",
-          approver: Engineering Lead}
   D12: {status: open}
   D13: {status: open}
   # plan

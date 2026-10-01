@@ -37,11 +37,14 @@ triggers are meant to raise the question before that point.
 
 ## Data Architect decision for Shelf (bootstrap, 2026-10-01)
 
-Not needed now. Against the triggers above:
+Not needed on current assumptions. Revisit at the design gate. Against the triggers above:
 
-1. One persistent store is assumed, and fewer than five contracts are expected. Not met.
-2. No dataset is classed regulated. Not met.
-3. No external datasets. Not met (STD-003 is signed not-applicable on that ground).
+1. The number of stores is not assessable: the stack is not chosen. Fewer than five
+   contracts are expected. Revisit at the design gate.
+2. No dataset is classed regulated. The classes are provisional until the risk
+   assessment. Not met on current assumptions.
+3. No external dataset is known. STD-003 applicability is open (see its Shelf adaptation).
+   Not met on current assumptions.
 4. No registry entries yet. Not met.
 5. The data layer's qualified challenger is open until the architecture names layer seats.
-   Not assessable at bootstrap. Revisit at the design gate.
+   Not assessable at bootstrap.

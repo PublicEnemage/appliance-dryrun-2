@@ -36,7 +36,7 @@ A rejection must cite a clause number.
 
 ## Shelf adaptation (bootstrap draft)
 
-- Reference data expected: tool categories, loan period defaults and reminder schedule
-  (days before and after due). The coordinator owns the values. The Architect seat owns
-  the file format.
+- The Architect seat owns the file format of each reference dataset. Each dataset names
+  its value owner when it is created (clause 1). Which datasets exist, and who owns their
+  values, is open (STATE.md decisions 7 and 12).
 - Seeds are synthetic members and tools only (clause 5). Clauses 1 to 5 apply as written.
