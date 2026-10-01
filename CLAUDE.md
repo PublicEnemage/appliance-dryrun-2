@@ -4,22 +4,36 @@ Every session reads this file first, human or agent. The file holds only the rul
 machine can enforce yet. A rule that a check enforces lives in the check (design rule 8).
 Budget: 16,000 bytes, enforced by check E9.
 
-Slots in `{{double braces}}` are filled at bootstrap. See `BOOTSTRAP.md`.
+Slots were filled at bootstrap (`BOOTSTRAP.md` step 4). Mission and principles are drafts
+until the Intent Owner approves the bootstrap (step 6).
 
 ## Mission
 
-{{One or two sentences: what this product exists to do, and for whom.}}
+*Draft, for the Intent Owner to approve.*
+
+Shelf is a web app for a neighbourhood tool-lending library. Members lend and borrow
+tools and return them on time with reminders, and a volunteer coordinator sees at a glance
+what is out and what is overdue.
 
 ## Principles
 
-{{Three to five project principles. Each is a value that decides trade-offs, not a slogan.}}
+*Draft, for the Intent Owner to approve.*
+
+1. **Volunteer time is the scarcest resource.** A coordinator runs the library without
+   training. A feature that adds coordinator work loses to one that removes it.
+2. **A loan needs little personal data.** Contact details exist for reminders and returns.
+   Collecting less beats a richer member profile.
+3. **A reminder that fails to arrive is a failed loan.** Reliable delivery and a visible
+   miss beat more channels or cleverer timing.
+4. **Cheap to run, easy to hand over.** A stack the next volunteer can maintain beats
+   headroom for scale.
 
 ## Seats
 
 | Seat | Held by |
 | --- | --- |
-| Intent Owner | {{name}} |
-| Engineering Lead | {{name}} |
+| Intent Owner | PublicEnemage |
+| Engineering Lead | PublicEnemage |
 
 Agent seats, their charters and holders are in `docs/roles.yml`. The Steward holds no
 artifact seat. On any artifact, the author, challenger and approver are three different

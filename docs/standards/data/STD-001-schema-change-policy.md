@@ -40,3 +40,11 @@ A rejection must cite a clause number.
    migration was never applied to the stack where validation ran.)
 7. **Fixtures follow the schema.** Test fixtures are generated from, or validated against,
    the schema in CI (floor row D10). (WorldSIM NM-051, NM-086.)
+
+## Shelf adaptation (bootstrap draft)
+
+- Persistent schemas: member, tool, loan and reminder records. One relational store is
+  assumed. The store and the migration tool are not chosen yet. They are chosen by ADR at
+  the design gate, and the migration tool must keep clause 2 checkable.
+- The store is run by volunteers. Clause 3 (expand, migrate, contract) stays in full,
+  because a library with a few hundred members still cannot afford a lost loan record.

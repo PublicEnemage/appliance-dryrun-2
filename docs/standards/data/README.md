@@ -34,3 +34,14 @@ already chartered in `docs/roles.yml` under `optional_seats`. Open a role propos
 
 WorldSIM adopted its Data Architect after a schema guess shipped (NM-003, NM-011). These
 triggers are meant to raise the question before that point.
+
+## Data Architect decision for Shelf (bootstrap, 2026-10-01)
+
+Not needed now. Against the triggers above:
+
+1. One persistent store is assumed, and fewer than five contracts are expected. Not met.
+2. No dataset is classed regulated. Not met.
+3. No external datasets. Not met (STD-003 is signed not-applicable on that ground).
+4. No registry entries yet. Not met.
+5. The data layer's qualified challenger is open until the architecture names layer seats.
+   Not assessable at bootstrap. Revisit at the design gate.

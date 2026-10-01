@@ -33,3 +33,10 @@ A rejection must cite a clause number.
    connection check while the database was under-seeded.)
 5. **Test seeds are synthetic.** No production personal data is used as seed data in any
    non-production environment.
+
+## Shelf adaptation (bootstrap draft)
+
+- Reference data expected: tool categories, loan period defaults and reminder schedule
+  (days before and after due). The coordinator owns the values. The Architect seat owns
+  the file format.
+- Seeds are synthetic members and tools only (clause 5). Clauses 1 to 5 apply as written.

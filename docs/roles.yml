@@ -28,7 +28,7 @@ seats:
   Architect:
     kind: agent
     concern: How is the system shaped, and does it meet its NFRs?
-    qualified_layers: [data, services-apis, integration, frontend, deployment-runtime]
+    qualified_layers: [data, services-apis, integration, frontend]
   Designer:
     kind: agent
     concern: How does it look and behave for users?
@@ -85,7 +85,7 @@ incompatible_pairs:
 # Rename "Human 1" to the person's name or GitHub handle at bootstrap, so this file and
 # CLAUDE.md name the same holder.
 holders:
-  Human 1: [Intent Owner, Engineering Lead]
+  PublicEnemage: [Intent Owner, Engineering Lead]
   Agent A: [Product, Delivery, Operator]
   Agent B: [Architect, Designer]
   Agent C: [Builder]
