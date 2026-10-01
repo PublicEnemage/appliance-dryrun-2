@@ -33,3 +33,10 @@ A rejection must cite a clause number.
    connection check while the database was under-seeded.)
 5. **Test seeds are synthetic.** No production personal data is used as seed data in any
    non-production environment.
+
+## Shelf adaptation (bootstrap draft)
+
+- The Architect seat owns the file format of each reference dataset. Each dataset names
+  its value owner when it is created (clause 1). Which datasets exist, and who owns their
+  values, is open (STATE.md decisions 7 and 12).
+- Seeds are synthetic members and tools only (clause 5). Clauses 1 to 5 apply as written.

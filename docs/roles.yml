@@ -4,7 +4,11 @@
 #
 # qualified_layers: architecture layers the seat can author or challenge (floor row D6).
 # qualified_domains: domain areas the seat can challenge (floor row C8).
-# Narrow every list to what the holder can actually judge. A layer or domain that
+# Narrow every list to what the holder can actually judge.
+# Bootstrap rule for Shelf (no stack chosen, so no seat holds a stack reference): a seat keeps
+# a layer only when its charter covers that layer's work. The Architect's charter does not
+# cover deployment-runtime, so that layer was removed. The Verifier keeps its two layers as
+# the challenger of the Operator's artifacts. Stack-specific references are named by ADR. A layer or domain that
 # no seat lists makes the check fail. That failure is the signal to open a crew review.
 # Never add a qualification to make a check pass. Leave it empty and let the crew review
 # open. A generic agent session is qualified for a layer only when its charter, its
@@ -28,7 +32,7 @@ seats:
   Architect:
     kind: agent
     concern: How is the system shaped, and does it meet its NFRs?
-    qualified_layers: [data, services-apis, integration, frontend, deployment-runtime]
+    qualified_layers: [data, services-apis, integration, frontend]
   Designer:
     kind: agent
     concern: How does it look and behave for users?
@@ -82,10 +86,10 @@ incompatible_pairs:
   - [Data Architect, Verifier]
 
 # One valid assignment for the minimum crew. Each holder works in its own sessions.
-# Rename "Human 1" to the person's name or GitHub handle at bootstrap, so this file and
-# CLAUDE.md name the same holder.
+# The human holder carries the person's GitHub handle, the same name as in CLAUDE.md.
+# Done at bootstrap. Keep the two in step.
 holders:
-  Human 1: [Intent Owner, Engineering Lead]
+  PublicEnemage: [Intent Owner, Engineering Lead]
   Agent A: [Product, Delivery, Operator]
   Agent B: [Architect, Designer]
   Agent C: [Builder]

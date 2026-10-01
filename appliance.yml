@@ -4,6 +4,8 @@
 appliance_version: 0.1.0
 floor_version: 0.1.0          # pinned Definition of Ready floor (docs/dor/floor.yml)
 
+# Bootstrap 2026-10-01: grade proposed as standard (the default; real members and contact
+# details). Merge autonomy set to human on both lines, the default, for a first cycle.
 grade: standard               # light | standard | assured
 # standard: the default for anything with real users or real users' data.
 # light:    spikes and throwaway prototypes with no real users' data.

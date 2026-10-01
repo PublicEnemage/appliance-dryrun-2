@@ -57,3 +57,10 @@ schema:
     total: {type: number}
     currency: {type: string}
 ```
+
+## Shelf adaptation (bootstrap draft)
+
+- Exchanges expected: browser to application API, application to the reminder channel
+  (email is assumed, SMS is open), and the coordinator view's read of loan state.
+  The architecture lists the real set, and each gets a contract file (floor row D12).
+- Contract folder: `contracts/`, as set in `appliance.yml`. Clauses 1 to 6 apply as written.
