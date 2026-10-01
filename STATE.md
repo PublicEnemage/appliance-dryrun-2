@@ -48,4 +48,5 @@ Each entry is a question the bootstrap session would have asked, with the assump
 
 ## Left mid-task
 
-Bootstrap step 4 is complete on branch `bootstrap`. Step 5 (fresh Verifier challenge) is next.
+Bootstrap step 4 is complete on branch `bootstrap`. Step 5 is done: findings are in
+`docs/bootstrap.review.md` (15 open, none high). The bootstrap author answers each one, then step 6.
